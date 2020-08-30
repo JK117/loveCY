@@ -1,6 +1,6 @@
-html {
+/* html {
   height: 100%;
-}
+} */
 
 body {
   margin: 0;
@@ -9,9 +9,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./images/Mosaic_01.jpg");
+  /* background-image: url("./images/Mosaic_01.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 }
 
 code {
