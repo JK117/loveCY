@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e85f632d39b58e4f42fb3b498ab61b6",
+    "revision": "55d7ed393c33d56d3f2f518165b8841f",
     "url": "/loveCY/index.html"
   },
   {
-    "revision": "3894d5699351b03ce1ed",
-    "url": "/loveCY/static/css/main.55c43751.chunk.css"
+    "revision": "7c31d325d6465ead04b2",
+    "url": "/loveCY/static/css/main.2872d7cd.chunk.css"
   },
   {
     "revision": "300eb3ce5bf0b575c80f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/loveCY/static/js/2.6c4f8f9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3894d5699351b03ce1ed",
-    "url": "/loveCY/static/js/main.cb9c48f1.chunk.js"
+    "revision": "7c31d325d6465ead04b2",
+    "url": "/loveCY/static/js/main.da085cfe.chunk.js"
   },
   {
     "revision": "16e0d836517373e7bdf7",
