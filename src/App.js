@@ -7,14 +7,18 @@ class App extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <h1>Things We Want to Do Together</h1>
-                    <h1>&</h1>
-                    <h1>Places We Want to Go Together</h1>
+                    <h1>A Tale of Two Cities</h1>
                 </header>
-                <h1>New Yrok</h1>
-                <Clock date={new Date()} timeZone={"America/New_York"}/>
-                <h1>Hangzhou</h1>
-                <Clock date={new Date()} timeZone={"Asia/Shanghai"}/>
+                <div className="Clock-list" style={{display:'flex',justifyContent:'space-around'}}>
+                    <div className="Clock">
+                        <h2>New York</h2>
+                        <Clock date={new Date()} timeZone={"America/New_York"}/>
+                    </div>
+                    <div className="Clock">
+                        <h2>Hangzhou</h2>
+                        <Clock date={new Date()} timeZone={"Asia/Shanghai"}/>
+                    </div>
+                </div> 
             </div>
         )
     }

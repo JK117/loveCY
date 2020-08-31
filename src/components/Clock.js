@@ -24,9 +24,23 @@ class Clock extends Component {
     }
 
     render() {
+        let dateOptions = {
+            timeZone: this.state.timeZone,
+            weekday: "long",
+            year: "numeric",
+            month: "short",
+            day: "numeric"
+        }
+        let timeOptions = {
+            timeZone: this.state.timeZone,
+            hour12: false
+        }
+        let localDate = this.state.date.toLocaleString("en-US", dateOptions)
+        let localTime = this.state.date.toLocaleTimeString("en-US", timeOptions)
         return (
             <div>
-                <h2>It is {this.state.date.toLocaleTimeString("en-US", {timeZone: this.state.timeZone})}</h2>
+                <h3>{localDate}</h3>
+                <h3>{localTime}</h3>
             </div>
         )
     }
