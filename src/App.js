@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import Clock from './components/Clock'
+import BasicTimeline from './components/BasicTimeline'
 
 class App extends Component {
     render() {
@@ -18,7 +19,10 @@ class App extends Component {
                         <h2>Hangzhou</h2>
                         <Clock date={new Date()} timeZone={"Asia/Shanghai"}/>
                     </div>
-                </div> 
+                </div>
+                <div className="Basic Timeline">
+                    <BasicTimeline />
+                </div>
             </div>
         )
     }
